@@ -1,9 +1,14 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>test</title>
+    <meta charset="UTF-8">
+    <title>案例3.16</title>
 </head>
 <body>
-<p>终极测试版</P>
+    <form action="" id="myform" oninput="num.value=parseInt(num1.value)+parseInt(num2.value)">
+        <input type="number" name="num1">+
+        <input type="number" name="num2">=
+        <output name="num" for="num1 num2"></output>
+    </form>
 </body>
 </html>
